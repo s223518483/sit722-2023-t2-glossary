@@ -74,6 +74,68 @@ const table_data = [
       "Vscode is a open source cross-plafrom code editor ability using extensions",
     reference: "https://code.visualstudio.com/docs/supporting/faq",
   },
+  {
+    id: 11,
+    term: "DevOps Cycle is the phase in DevOps ",
+    description:
+      "DevOps Cycle is the phase in DevOps, it contain 8 phase: Discover - Plan - Build - Test - Deploy - Operate - Observe - Continuous feedback",
+    reference: "https://www.atlassian.com/devops",
+  },
+  {
+    id: 12,
+    term: "SLA",
+    description:
+      "SLA is service level agreement is documnet about agreement between customer and Project development team like: uptime, the scope of service, payment, measure metric...",
+    reference: "https://www.atlassian.com/itsm/service-request-management/slas",
+  },
+  {
+    id: 14,
+    term: "KPI",
+    description:
+      "KPI (Key Performance Indicator) is a performing metric to evaluate the team distance to the outcome objective",
+    reference: "https://www.atlassian.com/blog/productivity/okr-vs-kpi",
+  },
+  {
+    id: 15,
+    term: "Jira",
+    description: "Jira is a project management sofware using in agile model",
+    reference: "https://www.atlassian.com/software/jira",
+  },
+  {
+    id: 16,
+    term: "Docker",
+    description:
+      "Docker is all in one container technology allow software developer to build, test, and deploy software quickly",
+    reference: "https://www.docker.com/why-docker/",
+  },
+  {
+    id: 17,
+    term: "Kubernete",
+    description:
+      "kubernete is a container orchestration, which allow to manage, orchestra and operate multi-container as the same time",
+    reference: "https://kubernetes.io/docs/concepts/overview/",
+  },
+  {
+    id: 18,
+    term: "Jenkins",
+    description:
+      "Jenkins is a tool to create a automation pipeline in DevOps philosophy",
+    reference: "https://www.jenkins.io/",
+  },
+  {
+    id: 19,
+    term: "CI/CD",
+    description:
+      "Continuous integration and Continuous delivery is a philosophy implement automation technology to automate all the phase of DevOps life cycle",
+    reference: "https://www.redhat.com/en/topics/devops/what-is-ci-cd",
+  },
+  {
+    id: 20,
+    term: "JSplunk",
+    description:
+      "Splunk is software used for collect and monitor and analyst data of organization, using in monitor phase of DevOps life cycle",
+    reference: "https://www.splunk.com/en_us/about-us/why-splunk.html",
+  },
 ];
 
 const desc = "This is a collection of term and sort deffination fo SIT722";

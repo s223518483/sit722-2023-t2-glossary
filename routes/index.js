@@ -210,6 +210,78 @@ const table_data = [
 			"OAuth is a standardize protocol used for authorization to allow user to grant access to their protect data without sharing their password",
 		reference: "https://oauth.net/2/",
 	},
+	{
+		id: 31,
+		term: "Azure",
+		description:
+			"Azure is a cloud computing service create by Microsoft, Azure provide nearly a full stack of cloud service like: IaaS, PaaS, SaaS, Azure is also  intergrate with many Microsoft product like: Microsoft 365",
+		reference: "https://azure.microsoft.com/en-us/get-started/",
+	},
+	{
+		id: 32,
+		term: "AWS",
+		description:
+			"AWS is an alternative for azure cloud computing service create by Amazon, AWS is a pioneer in cloud computing service, AWS provide nearly a full stack of cloud service like: IaaS, PaaS, SaaS",
+		reference: "https://aws.amazon.com/what-is-aws/?nc1=f_cc",
+	},
+	{
+		id: 33,
+		term: "Google Cloud",
+		description:
+			"Google Cloud is an alternative for azure cloud computing service create by Google, Google Cloud provide nearly a full stack of cloud service like: IaaS, PaaS, SaaS",
+		reference: "https://cloud.google.com/products",
+	},
+	{
+		id: 34,
+		term: "Cloud Computing Stack",
+		description:
+			"Cloud Computing Stack is a model to classify the cloud computing service into 3 layer: IaaS, PaaS, SaaS",
+		reference:
+			"https://www.mongodb.com/cloud-explained/cloud-computing-stack",
+	},
+	{
+		id: 35,
+		term: "Docker Swarm",
+		description:
+			"Docker Swarm is a container orchestration tool create by Docker",
+		reference: "https://docs.docker.com/engine/swarm/",
+	},
+	{
+		id: 36,
+		term: "Kubernetes",
+		description:
+			"Kubernetes is a container orchestration tool create by Google, Kubernetes is a pioneer in container orchestration tool",
+		reference: "https://kubernetes.io/docs/concepts/",
+	},
+	{
+		id: 37,
+		term: "OpenShift",
+		description:
+			"OpenShift is a container orchestration tool create by Redhat, OpenShift is a alternative for Kubernetes",
+		reference:
+			"https://www.redhat.com/en/technologies/cloud-computing/openshift",
+	},
+	{
+		id: 38,
+		term: "Terraform",
+		description:
+			"Terraform is a tool to automate create, manage and update infrastructure as code. Ansible is strong on create IaaS",
+		reference: "https://developer.hashicorp.com/terraform/intro",
+	},
+	{
+		id: 39,
+		term: "Ansible",
+		description:
+			"Ansible is a tool to automate configuration management, application deployment, and orchestration. Ansible is strong on create PaaS",
+		reference: "https://docs.ansible.com/ansible/latest/index.html",
+	},
+	{
+		id: 40,
+		term: "vagrant",
+		description:
+			"Vagrant is a tool to create and configure lightweight, reproducible, and portable development environments. Vargant support many virtualization technology like: VirtualBox, Hyper-V, VMware",
+		reference: "https://developer.hashicorp.com/vagrant/intro",
+	},
 ];
 
 const desc = "This is a collection of term and sort deffination fo SIT722";

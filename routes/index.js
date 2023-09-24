@@ -282,6 +282,82 @@ const table_data = [
 			"Vagrant is a tool to create and configure lightweight, reproducible, and portable development environments. Vargant support many virtualization technology like: VirtualBox, Hyper-V, VMware",
 		reference: "https://developer.hashicorp.com/vagrant/intro",
 	},
+	{
+		id: 41,
+		term: "Pods",
+		description:
+			"Pods is a smallest unit in Kubernetes, Pods is a group of one or more containers, with shared storage, network, and a specification for how to run the containers",
+		reference: "https://kubernetes.io/docs/concepts/workloads/pods/",
+	},
+	{
+		id: 42,
+		term: "Nodes",
+		description:
+			"Nodes is a worker machine in Kubernetes, Nodes is where Pods run, Node will manage CPU and memory for each Pod",
+		reference: "https://kubernetes.io/docs/concepts/architecture/nodes/",
+	},
+	{
+		id: 43,
+		term: "Cluster",
+		description:
+			"Cluster is a collection of Nodes, Cluster is the highest level of Kubernetes",
+		reference:
+			"https://kubernetes.io/docs/reference/glossary/?all=true#term-cluster",
+	},
+	{
+		id: 44,
+		term: "Cluster Networking",
+		description:
+			"Cluster Networking is a network model in Kubernetes, Cluster Networking is a model to allow Pods communicate with each other",
+		reference:
+			"https://kubernetes.io/docs/concepts/cluster-administration/networking/",
+	},
+	{
+		id: 45,
+		term: "EndpointSlices",
+		description:
+			"EndpointSlices is a API in kubernetes, EndpointSlices is function to tracking Kubernetes service endpoints",
+		reference:
+			"https://kubernetes.io/docs/concepts/services-networking/endpoint-slices/",
+	},
+	{
+		id: 46,
+		term: "ConfigMaps",
+		description:
+			"ConfigMaps is a API in kubernetes, ConfigMaps is function to store non-confidential data",
+		reference:
+			"https://kubernetes.io/docs/concepts/configuration/configmap/",
+	},
+	{
+		id: 47,
+		term: "Secrets",
+		description:
+			"Secrets is a API in kubernetes, Secrets is function to store confidential data",
+		reference: "https://kubernetes.io/docs/concepts/configuration/secret/",
+	},
+	{
+		id: 48,
+		term: "Workload Resources",
+		description:
+			"Workload Resources is an collection APIs in kubernetes, Workload Resources is provide a ability to manage the workload of Nodes, Pods , Cluster in Kubernetes",
+		reference: "https://kubernetes.io/docs/concepts/workloads/controllers/",
+	},
+	{
+		id: 49,
+		term: "Container Lifecycle Hooks",
+		description:
+			"Container Lifecycle Hooks is a framework in Kubernetes to allow user manage a event in container lifecycle like: PostStart, PreStop",
+		reference:
+			"https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/",
+	},
+	{
+		id: 50,
+		term: "Ephemeral Volumes",
+		description:
+			"Ephemeral Volumes is one type of volume in Kubernetes, Data in Ephemeral Volumes is only exist in the Pod, when Pod is deleted, the data in Ephemeral Volumes will be deleted too",
+		reference:
+			"https://kubernetes.io/docs/concepts/storage/ephemeral-volumes/",
+	},
 ];
 
 const desc = "This is a collection of term and sort deffination fo SIT722";
